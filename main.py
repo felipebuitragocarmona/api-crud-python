@@ -64,4 +64,5 @@ def deleteUser(userId):
     return jsonify({"message": "User deleted successfully"})
 
 if __name__ == '__main__':
+    print("hola mundo")
     app.run(debug=True)
